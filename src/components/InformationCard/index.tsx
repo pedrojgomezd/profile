@@ -6,6 +6,7 @@ const informations: { [key: string]: string } = {
   location: "Dallas TX",
   experience: "+9 years",
   relocation: "Yes",
+  nationality: "Venezuelan"
 };
 
 export const InformationCard = () => {
