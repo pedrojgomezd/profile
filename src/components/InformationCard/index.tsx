@@ -2,7 +2,7 @@
 import { Card, CardBody, CardHeader } from "@nextui-org/react";
 import { CardAside } from "../CardAside";
 
-const informations = {
+const informations: { [key: string]: string } = {
   location: "Dallas TX",
   experience: "+9 years",
   relocation: "Yes",
